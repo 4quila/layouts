@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Vazir;
+  src: url("../assets/fonts/Vazir.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../assets/fonts/Vazir-Bold.ttf");
+  font-weight: bold;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -32,6 +44,8 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  direction: rtl;
+  font-family: "Vazir", sans-serif;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -118,12 +132,12 @@ ul {
 .card {
   overflow: hidden;
   margin: 1rem;
-  margin-right: 0;
+  margin-left: 0;
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
   padding-bottom: 1rem;
-  flex: 0 0 30ch;
+  flex: 0 0 40ch;
 }
 
 .card-body {
