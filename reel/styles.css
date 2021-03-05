@@ -118,6 +118,7 @@ ul {
 
 .card-wrapper::-webkit-scrollbar-track {
   background-color: var(--color-dark);
+  border-radius: 10px;
 }
 
 .card-wrapper::-webkit-scrollbar-thumb {
@@ -129,6 +130,7 @@ ul {
     var(--color-light) 0.375rem,
     var(--color-dark) 0.375rem
   );
+  border-radius: 10px;
 }
 
 .card-wrapper::after {
